@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="{{url_for('static',filename='img/cdn.png')}}" alt="logo" width="40" />
+                <span>Mi pagina online</span>
+            </div>
+            <ul>
+                <li><a href="/">inicio</a></li>
+                <li><a href="/contacto">contactos</a></li>
+                <li><a href="/redes">redes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Ivan Estrada</h2>
+                <img src="https://cdn.pixabay.com/photo/2016/11/08/22/44/child-1809602_1280.jpg"
+                    alt="inteligencia artificial" width="120" height="80" />
+                <p>
+                    Desarrollador web
+                </p>
+                <span>python developer</span>
+            </article>
+
+            <article>
+                <h2>YesInformatica</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjL1ZXLtR8VyRk7HfmuSafs5xTXVFKUeq5RQ&s"
+                    alt="seguridad informática" width="200" height="150" />
+                <p>
+                   Instituto de Programacion y Robotica
+                </p>
+                <span>devs children,junior,senior</span>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
